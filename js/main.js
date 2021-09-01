@@ -12,7 +12,7 @@ let addTasks = () => {
     } else {
         noTasks.classList.add('none');
         allTasks.innerHTML += `<div class="alert task" role="alert" style="border-color: #0C6170; background-color: #DBF5F0; text-transform: none;">${taskData}
-        <i class="fas fa-trash float-right delete" style = "color : red; font-size : 24px"></i>
+        <i class="fas fa-trash float-right delete" style = "color : red; font-size : 1.5em"></i>
         </div>`;
         taskInput.value = '';
     }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <h1 class="text-center display-4">Welcome To My Todo List APP <i class="fas fa-lightbulb"></i></h1>
+    
+    <div class="container col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <label class="b">ADD tasks</label>
+          <div class="form-group d-flex justify-content-between">
+            <input
+              id="taskInput"
+              type="text"
+              class="form-control col-md-10"
+              placeholder="Add Task"
+            />
+            <button
+              id="addbtn"
+              class="btn btn-block ml-2 mb-3"
+              style="background-color: #0c6170; color:white"
+            >
+              ADD
+            </button>
+          </div>
+          <div
+              class="alert noTasks"
+              role="alert"
+              style="background-color: #a4e5e0"
+            >
+              No Tasks added yet...
+            </div>
+          <div id="listItems">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</html>

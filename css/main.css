@@ -1,0 +1,20 @@
+.none{
+   display: none;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    background-color: #DBF5F0;
+    color: #0C6170;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: #D6D6D6 !important;
+}
+
+.dark{
+    color: #DBF5F0;
+    background-color: #0C6170;
+}
